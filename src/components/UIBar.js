@@ -89,9 +89,9 @@ export class UIBar extends Container {
     this._betCX = 487 + 73;
 
     // 5. Buttons
-    this._buildGreenButton(662, 45, 'arrow-down',  () => this._changeBet(-50));
-    this._buildSpinButton( 755, 44);
-    this._buildGreenButton(848, 45, 'arrow-cycle', () => {});
+    this._buildGreenButton(697, 45, 'arrow-down',  () => this._changeBet(-50));
+    this._buildSpinButton( 797, 44);
+    this._buildGreenButton(897, 45, 'arrow-cycle', () => {});
   }
 
   // ── Metallic panel (returns Container, caller does addChild) ─────
